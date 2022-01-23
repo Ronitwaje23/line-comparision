@@ -11,8 +11,9 @@ namespace lineComparision
         static void Main(string[] args)
         {
             Console.WriteLine("lineComparision-comparision");
-            LineComparision l =new LineComparision();
+            LineComparison l =new LineComparison();
             l.length_line();
+            l.function_check();
             Console.ReadLine();
 
         }
